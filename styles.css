@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  color: #e2e3e9;
+  background-color: #262626;
+  font-family: Verdana, sans-serif;
+}
+
+main {
+  margin: auto;
+  margin-top: 80px;
+  max-width: 800px;
+}
+
+#title, #excerpt{
+  text-align: right;
+}
+
+#img-div {
+  margin: 30px auto;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  display: block;
+  object-fit: cover;
+}
+
+#img-caption {
+  font-style: italic;
+  font-size: 14px;
+}
+
+#tribute-info {
+  width: 90%;
+  margin: auto;
+}
+
+#tribute-info > h3 {
+
+  text-align: center;
+}
+
+#tribute-info > hr {
+  margin: 20px;
+}
+
+#description {
+  padding: 10px;
+  margin-bottom: 40px;
+  border: solid;
+  border-width: 0 0 0 4px;
+}
+
+
+#quote {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+#quote span {
+  font-style: normal;
+  margin-bottom: 4px;
+  font-size: 16px;
+  color: #aaaaaa;
+  display: block;
+}
+
+ul {
+  width: 80%;
+  margin: auto;
+}
+
+ul > li {
+  margin-bottom: 12px;
+}
+
+ul > li > span {
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 18px
+}
+
+ul > li > span::after  {
+  content: ': ';
+}
+
+#legacy {
+  margin: 25px 0 50px;
+}
+
+#tribute-link {
+  color: #a3a3f9;
+}
